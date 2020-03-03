@@ -1,20 +1,10 @@
-.list-card {
-  overflow: hidden;
+.card-label.mod-card-front {
+  height: 16px !important;
+  line-height: 16px !important;
+  padding: 0 8px !important;
+  max-width: 198px !important;
 }
 
-.list-card-labels {
-  display: block;
-  margin: 0!important;
-}
-
-.list-card-labels .card-label {
-  font-size: .7142857142857143rem;
-  line-height: 1.142857142857143rem!important;
-  height: inherit!important;
-  margin-right: 0;
-  padding: 0 0.5em!important;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, .1) 0 0 5px, rgba(0, 0, 0, .2) 0 0 2px;
-  width: auto!important;
-  display: inline!important;
+.mod-card-front .label-text {
+  display: inherit !important;
 }
